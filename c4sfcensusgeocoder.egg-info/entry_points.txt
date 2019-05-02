@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        c4sfcensusgeocoder=c4sfcensusgeocoder.cli:main
+    
