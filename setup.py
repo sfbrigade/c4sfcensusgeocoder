@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="c4sfcensusgeocoder",
-    version="0.0.11",
+    version="0.0.12",
     author="Data Science Working Group - Code for San Francisco",
     author_email="datascience@codeforsanfrancisco.org",
     description="Censusgeocoder",
@@ -22,7 +22,7 @@ setuptools.setup(
     ],
     entry_points='''
         [console_scripts]
-        c4sfcensusgeocoder=c4sfcensusgeocoder.cli:main
+        c4sfcensusgeocoder=c4sfcensusgeocoder.cli:c4sfcensusgeocoder
     ''',
     packages=setuptools.find_packages(),
     classifiers=[
