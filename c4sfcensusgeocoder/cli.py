@@ -15,15 +15,17 @@ def c4sfcensusgeocoder():
     required=True,
     help='The Text you want to print',
 )
-def hello_world(test_text):
+def hello(test_text):
     """Testing Hello World"""
     print(test_text)
 
+# c4sfcensusgeocoder.add_command(hello)
 
-@click.command()
-def main():
-    c4sfcensusgeocoder()
+
+# @click.command()
+# def main():
+#     c4sfcensusgeocoder()
 
 
 if __name__ == '__main__':  # pragma: no cover
-    main()  # pragma: no cover
+    c4sfcensusgeocoder()  # pragma: no cover
