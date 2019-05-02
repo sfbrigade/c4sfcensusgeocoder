@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="c4sfcensusgeocoder",
-    version="0.0.1",
+    version="0.0.2",
     author="Data Science Working Group - Code for San Francisco",
     author_email="datascience@codeforsanfrancisco.org",
     description="Censusgeocoder",

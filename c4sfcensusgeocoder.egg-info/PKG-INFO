@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: c4sfcensusgeocoder
-Version: 0.0.1
+Version: 0.0.2
 Summary: Censusgeocoder
 Home-page: https://github.com/sfbrigade/c4sf-censusgeocoder
 Author: Data Science Working Group - Code for San Francisco
@@ -8,7 +8,7 @@ Author-email: datascience@codeforsanfrancisco.org
 License: UNKNOWN
 Description: # c4sf-censusgeocoder
         Code for San Francisco Geocoding Tool
-        
+        This is a wrapper using censusgeocode package in https://github.com/fitnr/censusgeocode.
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
