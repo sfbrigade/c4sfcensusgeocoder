@@ -1,5 +1,6 @@
 import click
-# import batch_geocoder as bg
+from . import batch_geocoder as bg
+
 
 @click.group()
 def c4sfcensusgeocoder():
@@ -11,19 +12,17 @@ def c4sfcensusgeocoder():
 
 @c4sfcensusgeocoder.command(help="Testing Hello World.")
 @click.option(
-    "--test_text",
+    "--test-text",
     required=True,
-    help='The Text you want to print',
+    help='The Text you want to print'
 )
 def hello_world(test_text):
     """Testing Hello World"""
-    print(test_text)
+    print(test_text)   
 
 
-@click.command()
-def main():
-    c4sfcensusgeocoder()
+c4sfcensusgeocoder.add_command(hello_world)
 
 
 if __name__ == '__main__':  # pragma: no cover
-    main()  # pragma: no cover
+    c4sfcensusgeocoder()
